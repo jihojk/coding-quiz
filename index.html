@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type=text/css href="assets/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mr-auto" href="highscores.html" id="showHighScores"> Highscores</a>
+        <span class="navbar-text">
+            Time: <span id="clock"> 0 </span>
+        </span>
+    </nav>
+    <div class="container d-flex justify-content-center" id="wrapper">
+        <div id="currentTime"></div>
+        <div id="questionsDiv">
+<h1> Coding Quiz Challenge!</h1>
+<p> Try to answer these questions quickly and accurately. Inncorect answers will deduct 10 seconds from your time.</p>
+<ul id="choicesUl"></ul>
+<button type="button" class="btn btn-dark" id="startTime"> Start </button>        
+</div>
+     
+        </div>
+        
+<script src="questions.js"></script>
+</body>
+</html>
